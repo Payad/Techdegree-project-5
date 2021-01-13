@@ -8,7 +8,7 @@ function search_photo() {
     input=input.toLowerCase();
     let photo = document.getElementsByClassName('photos');
 
-    for(i = 0; 1 < photo.length; i++) {
+    for(i = 0; i < photo.length; i++) {
         if (!photo[i].innerHTML.toLowerCase().includes(input)) {
             photo[i].style.display='none';
         } else {
